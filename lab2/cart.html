@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionStore - Корзина</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-tshirt"></i>
+            <a href="index.html" class="logo-link">FashionStore</a>
+        </div>
+        
+        <div class="search">
+            <input type="text" placeholder="Поиск товаров...">
+        </div>
+        
+        <div class="icons">
+            <a href="index.html" class="icon">
+                <i class="far fa-heart"></i>
+                <span class="count">1</span>
+            </a>
+            <a href="cart.html" class="icon active">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="count">2</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="cart-container">
+        <h1><i class="fas fa-shopping-cart"></i> Корзина</h1>
+        
+        <div class="cart-actions">
+            <button class="select-all">Выбрать все</button>
+            <button class="clear-cart">Очистить корзину</button>
+        </div>
+
+        <div class="cart-content">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <input type="checkbox" checked>
+                    <div class="item-img"></div>
+                    <div class="item-info">
+                        <h3>Широкие шорты</h3>
+                        <div class="item-price">999 ₽</div>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span>2</span>
+                            <button class="plus">+</button>
+                            <button class="remove"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <input type="checkbox" checked>
+                    <div class="item-img"></div>
+                    <div class="item-info">
+                        <h3>Худи с принтом</h3>
+                        <div class="item-price">999 ₽</div>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span>1</span>
+                            <button class="plus">+</button>
+                            <button class="remove"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <h3>Итого</h3>
+                <div class="summary-row">
+                    <span>Товары (2)</span>
+                    <span>1998 ₽</span>
+                </div>
+                <div class="summary-row">
+                    <span>Скидка</span>
+                    <span class="discount">-400 ₽</span>
+                </div>
+                <div class="summary-row total">
+                    <span>К оплате</span>
+                    <span>1598 ₽</span>
+                </div>
+                <button class="checkout">Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 FashionStore</p>
+    </footer>
+</body>
+</html>

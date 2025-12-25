@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionStore - Главная</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-tshirt"></i>
+            <span>FashionStore</span>
+        </div>
+        
+        <div class="search">
+            <input type="text" placeholder="Поиск товаров...">
+            <div class="suggestions">
+                <div class="suggestion">
+                    <span>Худи с принтом</span>
+                    <span class="price">999 ₽</span>
+                    <button class="like-btn"><i class="far fa-heart"></i></button>
+                    <button class="cart-btn">В корзину</button>
+                </div>
+                <div class="suggestion">
+                    <span>Широкие шорты</span>
+                    <span class="price">999 ₽</span>
+                    <button class="like-btn"><i class="far fa-heart"></i></button>
+                    <button class="cart-btn">В корзину</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="icons">
+            <a href="#" class="icon">
+                <i class="far fa-heart"></i>
+                <span class="count">0</span>
+            </a>
+            <a href="cart.html" class="icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Категории</h3>
+            <ul class="categories">
+                <li class="active">Все товары <span>8</span></li>
+                <li>Худи <span>3</span></li>
+                <li>Шорты <span>4</span></li>
+                <li>Футболки <span>1</span></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h2>Все товары</h2>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="product-img"></div>
+                    <h3>Худи с принтом</h3>
+                    <div class="price">
+                        <span class="current">999 ₽</span>
+                        <span class="old">1199 ₽</span>
+                    </div>
+                    <button class="add-to-cart">В корзину</button>
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="product-img"></div>
+                    <h3>Широкие шорты</h3>
+                    <div class="price">
+                        <span class="current">999 ₽</span>
+                        <span class="old">1199 ₽</span>
+                    </div>
+                    <button class="add-to-cart">В корзину</button>
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="product-img"></div>
+                    <h3>Шорты спортивные</h3>
+                    <div class="price">
+                        <span class="current">799 ₽</span>
+                        <span class="old">999 ₽</span>
+                    </div>
+                    <button class="add-to-cart">В корзину</button>
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <div class="product-img"></div>
+                    <h3>Худи оверсайз</h3>
+                    <div class="price">
+                        <span class="current">1299 ₽</span>
+                        <span class="old">1599 ₽</span>
+                    </div>
+                    <button class="add-to-cart">В корзину</button>
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product">
+                    <div class="product-img"></div>
+                    <h3>Футболка с принтом</h3>
+                    <div class="price">
+                        <span class="current">599 ₽</span>
+                        <span class="old">799 ₽</span>
+                    </div>
+                    <button class="add-to-cart">В корзину</button>
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product">
+                    <div class="product-img"></div>
+                    <h3>Худи с капюшоном</h3>
+                    <div class="price">
+                        <span class="current">1399 ₽</span>
+                        <span class="old">1699 ₽</span>
+                    </div>
+                    <button class="add-to-cart">В корзину</button>
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2025 FashionStore</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
